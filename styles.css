@@ -1,0 +1,135 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Calculator container */
+  .calculator-container {
+    background-color: white;
+    padding: 20px;
+    margin: -6px 0;
+  }
+  
+  .calculator-subhead {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Calculator box */
+  .Emi-calc-box {
+    margin-bottom: 2rem;
+    padding: 0 57px 0 0;
+  }
+  
+  .calculator-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: black;
+  }
+  
+  .calculator-description {
+    color: black;
+  }
+  
+  /* Slider styles */
+  .slider-container {
+    padding-left: 0;
+    padding-right: 22%;
+    margin-top: 6%;
+  }
+  
+  .slider-label {
+    margin-bottom: 16px;
+  }
+  
+  .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+    margin-bottom: 16px;
+  }
+  
+  .custom-slider .MuiSlider-track {
+    background-color: #11AD99;
+    height: 18px;
+    border: none;
+  }
+  
+  .custom-slider .MuiSlider-rail {
+    background-color: #99BCC5;
+    height: 18px;
+  }
+  
+  .custom-slider .MuiSlider-thumb {
+    background-color: #11AD99;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .custom-slider .MuiSlider-thumb:hover, 
+  .custom-slider .MuiSlider-thumb:focus, 
+  .custom-slider .MuiSlider-thumb.Mui-active {
+    box-shadow: none;
+  }
+  
+  .custom-slider .MuiSlider-valueLabel {
+    background-color: #DCF7FF;
+    color: black;
+    font-weight: bold;
+    top: -5px;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  
+  /* Results container */
+  .results-container {
+    height: 270px;
+    width: 725px;
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #ffeed2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .result-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 16px;
+    height: 100%;
+  }
+  
+  .result-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .result-value {
+    font-weight: bold;
+    color: #0086AD;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1199px) {
+    .calculator-container {
+      background-color: #11202E;
+      padding: 16px;
+    }
+    
+    .calculator-title,
+    .calculator-description {
+      color: white;
+    }
+    
+    /* Add more mobile-specific styles here */
+  }
